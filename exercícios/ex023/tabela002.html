@@ -12,6 +12,13 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: lightslategray;
         }
 
         td, th {
@@ -24,11 +31,21 @@
             color: white;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(119, 136, 153, 0.494);
+        }
+
+        td.num {
+            text-align: right;
+        }
+
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: rgba(119, 136, 153, 0.407);
+            border-style: solid;
+            border-radius: 10px 10px 0px 0px;
         }
 
     </style>
@@ -45,9 +62,26 @@
         </thead>
         <tbody>
                 <tr>
-                    <td>sao paulo</td>
-                    <td>uma pá de gente</td>
+                    <td>brasil</td>
+                    <td class="num">uma pá de gente</td>
                 </tr>
+                <tr>
+                    <td>portugal</td>
+                    <td class="num">um pá de gente tambem</td>
+                </tr>
+                <tr>
+                    <td>russia</td>
+                    <td class="num">um pá de gente tambem</td>
+                </tr>
+                <tr>
+                    <td>japao</td>
+                    <td class="num">um pá de gente tambem</td>
+                </tr>
+                <tr>
+                    <td>wakanda</td>
+                    <td class="num">um pá de gente da marvel</td>
+                </tr>
+
         </tbody>
         <tfoot>
               <tr>
@@ -56,5 +90,21 @@
               </tr>
         </tfoot>
     </table>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore, fugit earum odio soluta accusamus ab nobis cum debitis sed voluptate quisquam quaerat optio. Quod atque inventore accusamus natus quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae enim nulla dicta soluta dignissimos ipsum nisi in unde exercitationem et, voluptas voluptates cum neque officiis, nostrum at ducimus veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi et a, sint itaque totam ipsam laboriosam voluptates mollitia aspernatur nobis reiciendis sunt corrupti nihil ducimus id amet beatae inventore quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quia iure sed quo molestias reiciendis facilis fugiat omnis doloribus laborum est recusandae cum libero quaerat, officiis inventore a ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa commodi eius veniam distinctio, reprehenderit ad praesentium cumque doloremque, eos laboriosam quas perferendis eaque ratione repudiandae sint amet molestias, rem omnis!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore, fugit earum odio soluta accusamus ab nobis cum debitis sed voluptate quisquam quaerat optio. Quod atque inventore accusamus natus quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae enim nulla dicta soluta dignissimos ipsum nisi in unde exercitationem et, voluptas voluptates cum neque officiis, nostrum at ducimus veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi et a, sint itaque totam ipsam laboriosam voluptates mollitia aspernatur nobis reiciendis sunt corrupti nihil ducimus id amet beatae inventore quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quia iure sed quo molestias reiciendis facilis fugiat omnis doloribus laborum est recusandae cum libero quaerat, officiis inventore a ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa commodi eius veniam distinctio, reprehenderit ad praesentium cumque doloremque, eos laboriosam quas perferendis eaque ratione repudiandae sint amet molestias, rem omnis!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore, fugit earum odio soluta accusamus ab nobis cum debitis sed voluptate quisquam quaerat optio. Quod atque inventore accusamus natus quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae enim nulla dicta soluta dignissimos ipsum nisi in unde exercitationem et, voluptas voluptates cum neque officiis, nostrum at ducimus veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi et a, sint itaque totam ipsam laboriosam voluptates mollitia aspernatur nobis reiciendis sunt corrupti nihil ducimus id amet beatae inventore quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quia iure sed quo molestias reiciendis facilis fugiat omnis doloribus laborum est recusandae cum libero quaerat, officiis inventore a ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa commodi eius veniam distinctio, reprehenderit ad praesentium cumque doloremque, eos laboriosam quas perferendis eaque ratione repudiandae sint amet molestias, rem omnis!
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore, fugit earum odio soluta accusamus ab nobis cum debitis sed voluptate quisquam quaerat optio. Quod atque inventore accusamus natus quam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae enim nulla dicta soluta dignissimos ipsum nisi in unde exercitationem et, voluptas voluptates cum neque officiis, nostrum at ducimus veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi et a, sint itaque totam ipsam laboriosam voluptates mollitia aspernatur nobis reiciendis sunt corrupti nihil ducimus id amet beatae inventore quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita qui quia iure sed quo molestias reiciendis facilis fugiat omnis doloribus laborum est recusandae cum libero quaerat, officiis inventore a ipsum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa commodi eius veniam distinctio, reprehenderit ad praesentium cumque doloremque, eos laboriosam quas perferendis eaque ratione repudiandae sint amet molestias, rem omnis!
+    </p>
 </body>
 </html>
