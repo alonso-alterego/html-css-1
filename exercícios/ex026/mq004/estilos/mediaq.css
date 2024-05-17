@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media print {
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: #000;
+    }
+
+    img#p {display: none;}
+    img#t {display: none;}
+    img#i {display: block;}
+    img#d {display: none;}
+    img#t {display: none;}
+}
+
+@media  screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#p {display: none;}
+    img#tt {display: block;}
+    img#i {display: none;}
+    img#d {display: none;}
+    img#t {display: none;}
+}
+
+@media  screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#p {display: none;}
+    img#t {display: none;}
+    img#i {display: none;}
+    img#d {display: block;}
+    img#t {display: none;}
+}
+
+@media  screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main {
+        width: 700px;
+    }
+
+
+    img#p {display: none;}
+    img#t {display: none;}
+    img#i {display: none;}
+    img#d {display: none;}
+    img#t {display: block;}
+}
+
